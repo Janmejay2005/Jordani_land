@@ -26,9 +26,10 @@ jordani-land-portfolio/
 - Responsive layout
 - Separate HTML, CSS and JavaScript files
 - Uses the uploaded profile image locally
-
-## You can access through here: https://janmejay2005.github.io/Jordani_land/
-
+  
+___
+You can access through here: https://janmejay2005.github.io/Jordani_land/
+___
 ## Important
 
 The "AI Core" is a **frontend demo intent engine**, not a real LLM. To turn it into a production AI assistant, connect the form to your backend/API and keep API keys on the server.
