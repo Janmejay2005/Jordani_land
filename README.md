@@ -27,11 +27,7 @@ jordani-land-portfolio/
 - Separate HTML, CSS and JavaScript files
 - Uses the uploaded profile image locally
 
-## Run locally
-
-Open `index.html` in a browser.
-
-For the best development experience, use VS Code + Live Server.
+## You can access through here: https://janmejay2005.github.io/Jordani_land/
 
 ## Important
 
