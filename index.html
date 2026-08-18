@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jordani Land — the interactive portfolio of Janmejay Kumar Singh." />
+  <title>Jordani Land | Janmejay Kumar Singh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+
+  <header class="hud">
+    <a class="brand" href="#home" aria-label="Jordani Land home">JL<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Missions</a>
+      <a href="#ai-lab">AI Lab</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hud-stats">
+      <span>XP <b id="xp">000</b></span>
+      <span>🪙 <b id="coins">0</b></span>
+    </div>
+  </header>
+
+  <main>
+    <!-- GAME START -->
+    <section id="start-screen" class="start-screen">
+      <div class="city city-back"></div>
+      <div class="city city-mid"></div>
+      <div class="train train-left">METRO<span>01</span></div>
+      <div class="train train-right">JORDANI<span>LAB</span></div>
+      <div class="track"></div>
+      <div class="floating-coin coin-a">🪙</div>
+      <div class="floating-coin coin-b">🪙</div>
+      <div class="floating-coin coin-c">🪙</div>
+
+      <div class="start-card">
+        <div class="pixel-label">PLAYER 001 • PORTFOLIO RUN</div>
+        <h1>Welcome to<br><span>Jordani Land</span></h1>
+        <p class="start-subtitle">A developer portfolio disguised as an endless-runner.</p>
+        <button id="start-btn" class="game-btn">▶ START RUN</button>
+        <p class="controls">ENTER / SPACE to start • Scroll to explore • Collect 🪙 to level up</p>
+      </div>
+
+      <div class="start-footer">
+        <span>AI/ML</span><span>FULL-STACK</span><span>AI APPLICATIONS</span>
+      </div>
+    </section>
+
+    <!-- HERO -->
+    <section id="home" class="section hero section-track">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> ONLINE • BUILDING IN BHOPAL</div>
+          <p class="role">VICE PRESIDENT • ODYSSEY</p>
+          <h2>Hi, I'm <span>Janmejay Kumar Singh.</span></h2>
+          <h3>🤖 AI/ML • Full-Stack Development • AI Application Engineering</h3>
+          <p class="lead">
+            I build practical software and intelligent applications across AI/ML, Generative AI,
+            RAG, document parsing, data analytics and full-stack development.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">Explore Missions ↓</a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/janmejay-kumar-singh-ab50b1272/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a class="btn ghost" href="https://github.com/Janmejay2005" target="_blank" rel="noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="avatar-wrap">
+          <div class="avatar-glow"></div>
+          <div class="avatar-frame">
+            <img src="assets/janmejay-profile.png" alt="Janmejay Kumar Singh" />
+          </div>
+          <div class="badge badge-one">BCA • AI & DA</div>
+          <div class="badge badge-two">ODYSSEY VP</div>
+          <div class="badge badge-three">AI BUILDER</div>
+        </div>
+      </div>
+
+      <div class="runner-hint">↓ KEEP RUNNING</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-heading">
+        <span class="level">LEVEL 01</span>
+        <h2>Player Profile</h2>
+        <p>Who is behind the keyboard?</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="terminal-card">
+          <div class="terminal-top"><span></span><span></span><span></span><b>player_profile.exe</b></div>
+          <div class="terminal-body">
+            <p><span class="prompt">jordan@land:~$</span> whoami</p>
+            <p class="terminal-output">Janmejay Kumar Singh</p>
+            <p><span class="prompt">jordan@land:~$</span> cat role.txt</p>
+            <p class="terminal-output">BCA Student • AI & Data Analytics</p>
+            <p><span class="prompt">jordan@land:~$</span> cat leadership.txt</p>
+            <p class="terminal-output">Vice President • Odyssey</p>
+            <p><span class="prompt">jordan@land:~$</span> locate passion</p>
+            <p class="terminal-output">AI systems / products / problem solving</p>
+          </div>
+        </article>
+
+        <article class="info-card">
+          <span class="card-icon">🗺️</span>
+          <h3>The Run So Far</h3>
+          <p>
+            I'm a BCA student specializing in Artificial Intelligence & Data Analytics at LNCT.
+            My projects range from C/C++ and Java foundations to React applications, Python systems,
+            AI voice interfaces, JSON parsing tools and data-focused products.
+          </p>
+          <div class="mini-stats">
+            <div><strong>21</strong><span>Public repos</span></div>
+            <div><strong>16</strong><span>GitHub stars</span></div>
+            <div><strong>19</strong><span>Followers</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section city-section">
+      <div class="section-heading">
+        <span class="level">LEVEL 02</span>
+        <h2>Skill District</h2>
+        <p>Collect the tools in the backpack.</p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card">
+          <span class="skill-icon">💻</span>
+          <h3>Programming</h3>
+          <div class="chips">
+            <span>Python</span><span>Java</span><span>C++</span><span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">🌐</span>
+          <h3>Full-Stack</h3>
+          <div class="chips">
+            <span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span><span>REST APIs</span>
+          </div>
+        </article>
+
+        <article class="skill-card featured-skill">
+          <span class="skill-icon">🧠</span>
+          <h3>AI / ML</h3>
+          <div class="chips">
+            <span>TensorFlow</span><span>Scikit-learn</span><span>LLMs</span><span>Generative AI</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon">🔗</span>
+          <h3>AI Engineering</h3>
+          <div class="chips">
+            <span>RAG</span><span>Parsing</span><span>Chunking</span><span>Embeddings</span><span>LangChain</span><span>Whisper</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <span class="level">LEVEL 03</span>
+        <h2>Mission Map</h2>
+        <p>Projects are the checkpoints. Pick a mission.</p>
+      </div>
+
+      <div class="project-filter">
+        <button class="filter active" data-filter="all">ALL</button>
+        <button class="filter" data-filter="ai">AI</button>
+        <button class="filter" data-filter="web">WEB</button>
+        <button class="filter" data-filter="systems">SYSTEMS</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card" data-category="ai">
+          <div class="project-top"><span class="project-number">01</span><span>AI MISSION</span></div>
+          <h3>🎙️ Voice Assistant</h3>
+          <p>Gemini-powered voice assistant using speech recognition, function calling and live APIs for weather, news, Wikipedia and YouTube.</p>
+          <div class="project-tags"><span>Python</span><span>Gemini</span><span>Speech</span><span>APIs</span></div>
+          <a href="https://github.com/Janmejay2005/Voice_Assistant" target="_blank" rel="noreferrer">OPEN REPO ↗</a>
+        </article>
+
+        <article class="project-card" data-category="ai web">
+          <div class="project-top"><span class="project-number">02</span><span>DATA MISSION</span></div>
+          <h3>🧹 Cleanytics</h3>
+          <p>AI-focused data cleaning and analytics product currently under development, aimed at turning messy datasets into usable insights.</p>
+          <div class="project-tags"><span>React</span><span>AI</span><span>Data</span><span>Analytics</span></div>
+          <span class="project-status">IN PROGRESS</span>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <div class="project-top"><span class="project-number">03</span><span>DATA MISSION</span></div>
+          <h3>🧠 Humanize — JSON, Plainly</h3>
+          <p>Interactive client-side JSON parser that translates complex structures into readable summaries, hierarchy and live statistics.</p>
+          <div class="project-tags"><span>JavaScript</span><span>JSON Parsing</span><span>DOM</span><span>UX</span></div>
+          <a href="https://janmejay2005.github.io/Humanize_jsonth/" target="_blank" rel="noreferrer">PLAY LIVE ↗</a>
+        </article>
+
+        <article class="project-card" data-category="systems web">
+          <div class="project-top"><span class="project-number">04</span><span>SYSTEM MISSION</span></div>
+          <h3>📅 LNCT Time Table</h3>
+          <p>Academic timetable management project focused on scheduling and handling real-world academic constraints.</p>
+          <div class="project-tags"><span>Java</span><span>JavaScript</span><span>Scheduling</span></div>
+          <a href="https://github.com/Janmejay2005/LNCT-Time-Table" target="_blank" rel="noreferrer">OPEN REPO ↗</a>
+        </article>
+
+        <article class="project-card" data-category="systems">
+          <div class="project-top"><span class="project-number">05</span><span>SECURITY MISSION</span></div>
+          <h3>🔐 urVault</h3>
+          <p>Python security project exploring password policy, strength evaluation and practical security workflows.</p>
+          <div class="project-tags"><span>Python</span><span>Security</span><span>Validation</span></div>
+          <a href="https://github.com/Janmejay2005/urVault" target="_blank" rel="noreferrer">OPEN REPO ↗</a>
+        </article>
+
+        <article class="project-card" data-category="web">
+          <div class="project-top"><span class="project-number">06</span><span>WEB MISSION</span></div>
+          <h3>🍱 Appa Mess Management</h3>
+          <p>Offline-first PWA for mess inventory, meal logging, budget analytics, Google Sheets sync and Excel reporting.</p>
+          <div class="project-tags"><span>React</span><span>Vite</span><span>PWA</span><span>Google Sheets</span></div>
+          <a href="https://github.com/Janmejay2005/Appa_project" target="_blank" rel="noreferrer">OPEN REPO ↗</a>
+        </article>
+
+        <article class="project-card" data-category="ai">
+          <div class="project-top"><span class="project-number">07</span><span>AI MISSION</span></div>
+          <h3>📄 ResumeForgeAI</h3>
+          <p>Python-based AI-oriented application experiment for building and working with resume-focused workflows.</p>
+          <div class="project-tags"><span>Python</span><span>AI</span><span>Web</span></div>
+          <a href="https://github.com/Janmejay2005/ResumeforgeAI" target="_blank" rel="noreferrer">OPEN REPO ↗</a>
+        </article>
+
+        <article class="project-card" data-category="systems">
+          <div class="project-top"><span class="project-number">08</span><span>FOUNDATION MISSION</span></div>
+          <h3>🧰 C++ Vault</h3>
+          <p>A collection of C++ programs and GUI-oriented experiments built while strengthening programming and problem-solving foundations.</p>
+          <div class="project-tags"><span>C++</span><span>GUI</span><span>Programming</span></div>
+          <a href="https://github.com/Janmejay2005/cpp-vault" target="_blank" rel="noreferrer">OPEN REPO ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- AI LAB -->
+    <section id="ai-lab" class="section ai-section">
+      <div class="section-heading">
+        <span class="level">LEVEL 04</span>
+        <h2>AI Lab</h2>
+        <p>Don't just read about AI. Interact with it.</p>
+      </div>
+
+      <div class="ai-lab-grid">
+        <div class="ai-terminal">
+          <div class="terminal-top"><span></span><span></span><span></span><b>jordani_ai_core</b><span class="live">● LIVE DEMO</span></div>
+          <div id="ai-output" class="ai-output">
+            <div class="ai-message system">AI Core online. Ask me about Janmejay, his skills, projects, RAG, or Odyssey.</div>
+          </div>
+          <form id="ai-form" class="ai-input-row">
+            <input id="ai-input" type="text" placeholder="Ask the AI Core something..." autocomplete="off" />
+            <button type="submit">SEND ↗</button>
+          </form>
+          <div class="quick-prompts">
+            <button data-prompt="What does Janmejay build?">What does he build?</button>
+            <button data-prompt="Tell me about RAG">Explain his AI work</button>
+            <button data-prompt="What is his strongest project?">Best project?</button>
+          </div>
+          <p class="demo-note">This portfolio demo uses a lightweight client-side intent engine. Connect your own LLM/API later for a production AI assistant.</p>
+        </div>
+
+        <div class="ai-map">
+          <div class="pipeline">
+            <div class="node active">USER</div>
+            <span>→</span>
+            <div class="node">PARSER</div>
+            <span>→</span>
+            <div class="node">RETRIEVAL</div>
+            <span>→</span>
+            <div class="node">LLM</div>
+            <span>→</span>
+            <div class="node active">ANSWER</div>
+          </div>
+          <h3>🧩 The AI Stack I'm Exploring</h3>
+          <ul>
+            <li><span>01</span> Document parsing & preprocessing</li>
+            <li><span>02</span> Chunking & embeddings</li>
+            <li><span>03</span> Retrieval-Augmented Generation</li>
+            <li><span>04</span> LLM integration & prompting</li>
+            <li><span>05</span> Voice interfaces with Whisper</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section id="leadership" class="section">
+      <div class="section-heading">
+        <span class="level">BONUS LEVEL</span>
+        <h2>Odyssey HQ</h2>
+        <p>Technology isn't the only game.</p>
+      </div>
+
+      <div class="leadership-card">
+        <div class="odyssey-mark">O</div>
+        <div>
+          <span class="role">VICE PRESIDENT</span>
+          <h3>ODYSSEY • Formerly E-Cell LNCT</h3>
+          <p>
+            Odyssey is a student body focused on empowering aspiring innovators and entrepreneurs.
+            As Vice President, I work around leadership, operations, content, events and building an ecosystem
+            where ideas can move from concept to impact.
+          </p>
+          <a href="https://www.linkedin.com/company/odyssey-lnct/" target="_blank" rel="noreferrer">VISIT ODYSSEY ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="contact-card">
+        <span class="pixel-label">MISSION COMPLETE?</span>
+        <h2>Let's build something.</h2>
+        <p>Have a project, AI idea, collaboration, or just want to talk tech?</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="mailto:janmejaykumarsinghsharp@gmail.com">Send Email</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/janmejay-kumar-singh-ab50b1272/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn ghost" href="https://github.com/Janmejay2005" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <footer>© 2026 Janmejay Kumar Singh • Built in Jordani Land 🏃‍♂️</footer>
+    </section>
+  </main>
+
+  <button id="top-btn" class="top-btn" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
